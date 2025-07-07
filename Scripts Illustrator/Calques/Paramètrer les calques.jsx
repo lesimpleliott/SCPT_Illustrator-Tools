@@ -6,12 +6,11 @@
  * Date          : 2024-05-16
  * Catégorie     : Calques
  * Compatible    : Illustrator CC 2020+
- * Description   : Ce script permet de configurer rapidement les propriétés des calques visibles et non verrouillés
- *                 dans un document Illustrator. Il propose une interface utilisateur pour appliquer des options
- *                 comme la visibilité, l'impression, le verrouillage, l'opacité, ou encore la couleur, y compris
- *                 sur les sous-calques si nécessaire.
- *                 L'utilisateur peut choisir une couleur prédéfinie ou une couleur personnalisée, activer l’estompage
- *                 des images avec gestion de l’opacité, et appliquer ces réglages à tous les calques actifs.
+ * Description   : Ce script permet de configurer rapidement les propriétés des calques visibles et non verrouillés dans un document Illustrator.
+ *
+ *                 Il propose une interface utilisateur pour appliquer des options comme la visibilité, l'impression, le verrouillage, l'opacité, ou encore la couleur, y compris sur les sous-calques si nécessaire.
+ *
+ *                 L'utilisateur peut choisir une couleur prédéfinie ou une couleur personnalisée, activer l’estompage des images avec gestion de l’opacité, et appliquer ces réglages à tous les calques actifs.
  * ---
  * Fonctions :
  * - main : Affiche l’interface utilisateur et applique les paramètres sélectionnés aux calques concernés.

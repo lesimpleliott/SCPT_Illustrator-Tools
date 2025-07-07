@@ -6,17 +6,14 @@
  * Date          : 2025-07-05
  * Catégorie     : Nuances
  * Compatible    : Illustrator CC 2020+
- * Description   : Ce script supprime toutes les nuances du document actif, à l’exception :
- *                 - des nuances système protégées ([Sans], [Repérage])
- *                 - des nuances explicitement listées dans une whitelist personnalisable
- *                 Il supprime également les groupes de couleurs (swatchGroups) s’ils ne contiennent
- *                 plus aucune nuance après le nettoyage.
+ * Description   : Ce script supprime toutes les nuances du document actif ainsi que les groupes de couleurs.
+ *
+ *                 Il est possibile d'ajouter des nuances à conserver dans la variable WHITELISTED_SWATCHES du code.
  * ---
  * Fonctions :
  * - main : Supprime toutes les nuances non protégées et supprime les groupes de couleurs vides.
  * - isWhitelisted : Vérifie si une nuance est protégée (système ou incluse dans la whitelist définie).
  */
-
 
 // ========================================
 // == CONFIGURATION ET PERSONNALISATION ==

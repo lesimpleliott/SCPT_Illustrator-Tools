@@ -6,11 +6,11 @@
  * Date          : 27/06/2025
  * Catégorie     : Plans de travail
  * Compatible    : Illustrator CC 2020+
- * Description   : Ce script ajoute automatiquement un rectangle de couleur de fond sur un ou plusieurs plans de travail
- *                 sélectionnés dans le document actif. L'utilisateur peut choisir une couleur CMJN prédéfinie et définir
- *                 une marge de fond perdu (bleed) à ajouter autour du rectangle.
- *                 Une interface permet de sélectionner les plans à traiter, la couleur à appliquer, ainsi qu’une marge
- *                 personnalisée. Le rectangle est ajouté sur un calque dédié nommé "BG-Color" placé en arrière-plan.
+ * Description   : Ce script ajoute automatiquement un rectangle de couleur de fond sur un ou plusieurs plans de travail sélectionnés dans le document actif.
+ *
+ *                 Une interface permet à l'utilisateur de choisir une couleur CMJN prédéfinie et définir une marge de fond perdu à ajouter autour du rectangle.
+ *
+ *                 Le rectangle est ajouté sur un calque dédié nommé "BG-Color" placé en arrière-plan.
  * ---
  * Fonctions :
  * - main : Gère le déroulement principal, collecte les paramètres via l’UI et applique les fonds.

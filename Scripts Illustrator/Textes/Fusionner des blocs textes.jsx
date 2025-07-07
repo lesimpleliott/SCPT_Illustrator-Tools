@@ -8,8 +8,9 @@
  * Catégorie     : Textes
  * Compatible avec : Illustrator CC 2020+
  * Description   : Ce script fusionne plusieurs blocs de texte sélectionnés en un seul paragraphe structuré.
- *                 Il détecte les blocs appartenant à une même ligne selon leur ancrage vertical,
- *                 puis ajuste l’espacement horizontal et l’interligne pour les assembler harmonieusement.
+ *
+ *                 Il détecte les blocs appartenant à une même ligne selon leur ancrage vertical, puis ajuste l’espacement horizontal et l’interligne pour les assembler harmonieusement.
+ *
  *                 Une justification commune est ensuite appliquée à l’ensemble.
  *
  * ---

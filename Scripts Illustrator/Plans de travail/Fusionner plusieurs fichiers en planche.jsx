@@ -6,12 +6,12 @@
  * Date          : 2024-10-26
  * Catégorie     : Plans de travail
  * Compatible    : Illustrator CC 2020+
- * Description   : Ce script importe tous les fichiers image d’un dossier (et sous-dossiers) pour les
- *                 organiser automatiquement dans un nouveau document Illustrator, chaque image sur son propre
- *                 plan de travail, dans une grille. Les plans de travail sont nommés selon les fichiers importés.
- *                 Le fichier généré est sauvegardé automatiquement dans le dossier parent avec un nom basé sur
- *                 celui du dossier source (avec timestamp optionnel). Tous les éléments sont placés dans un calque
- *                 dédié et redimensionnés pour s’adapter au plan de travail.
+ * Description   : Ce script importe tous les fichiers image d’un dossier (et sous-dossiers) pour les organiser automatiquement dans un nouveau document Illustrator.
+ *
+ *                 Chaque image est placée un plan de travail, dans une grille.
+ *                 Les plans de travail sont nommés selon les fichiers importés.
+ *                 Le fichier généré est sauvegardé automatiquement dans le dossier parent avec un nom basé sur celui du dossier source.
+ *                 Tous les éléments sont placés dans un calque dédié et redimensionnés pour s’adapter au plan de travail.
  * ---
  * Fonctions :
  * - main : Gère le flux principal (sélection dossier, génération document, importation et export).

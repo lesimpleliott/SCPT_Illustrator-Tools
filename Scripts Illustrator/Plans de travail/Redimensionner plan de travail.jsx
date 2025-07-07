@@ -6,9 +6,9 @@
  * Date          : 2025-06-28
  * Catégorie     : Plans de travail
  * Compatible    : Illustrator CC 2020+
- * Description   : Ce script permet d'ajouter un "blanc tournant" (marge externe) autour d’un ou plusieurs
- *                 plans de travail sélectionnés dans un document Illustrator. L’utilisateur peut choisir
- *                 la valeur de la marge à appliquer (en mm) via une interface de sélection conviviale.
+ * Description   : Ce script permet d'ajouter un "blanc tournant" (marge externe) autour d’un ou plusieurs plans de travail sélectionnés dans un document Illustrator.
+ *
+ *                 L’utilisateur peut choisir la valeur de la marge à appliquer (en mm) via une interface de sélection conviviale.
  * ---
  * Fonctions :
  * - main : Gère le déroulement global (vérification document, interface, redimensionnement).

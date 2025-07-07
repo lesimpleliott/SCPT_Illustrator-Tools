@@ -6,14 +6,15 @@
  * Version       : 2.0
  * Date          : 06/07/2025
  * Catégorie     : Plans de travail
- * Description   : Ce script permet de renommer automatiquement les plans de travail dans un document Illustrator
- *                 en se basant sur des objets texte positionnés sur chaque plan. Ces textes sont répartis dans
- *                 trois calques distincts : Prefix, Base (obligatoire), et Suffix. Le nom final du plan est
- *                 généré dynamiquement selon les contenus des champs et les règles de composition définies.
+ * Description   : Ce script permet de renommer automatiquement les plans de travail dans un document Illustrator en se basant sur des objets texte positionnés sur chaque plan.
+ *
+ *                 Ces textes sont répartis dans trois calques distincts : Prefix, Base (obligatoire), et Suffix.
  *
  *                 Le script s'utilise en deux étapes :
+ *
  *                 1. Initialisation : ajoute des calques spécifiques contenant des textes par défaut à chaque plan de travail.
  *                    Ces textes servent de gabarit personnalisable pour la génération des noms.
+ *
  *                 2. Renommage : lit les contenus des textes présents sur chaque plan de travail et applique le nom généré.
  *                    Si la valeur de base est inchangée (valeur par défaut), le plan est ignoré ou nommé "NONAME".
  * ---

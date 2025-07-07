@@ -7,17 +7,16 @@
  * Catégorie     : Calques
  * Compatible    : Illustrator CC 2020+
  * Description   : Ce script supprime tous les calques vides dans le document actif, y compris les sous-calques.
- *                 Seuls les calques non verrouillés sont pris en compte. La suppression s'applique aux calques
- *                 masqués comme visibles. Le script restaure ensuite l’état de visibilité d’origine de chaque calque.
- *                 Il est utile pour nettoyer rapidement un document en éliminant les calques sans contenu,
- *                 tout en préservant la structure de visibilité initiale.
+ *
+ *                 Seuls les calques non verrouillés sont pris en compte. La suppression s'applique aux calques masqués comme visibles. Le script restaure ensuite l’état de visibilité d’origine de chaque calque.
+ *
+ *                 Il est utile pour nettoyer rapidement un document en éliminant les calques sans contenu, tout en préservant la structure de visibilité initiale.
  * ---
  * Fonctions :
  * - main : Supprime tous les calques vides et déverrouillés, tout en restaurant leur visibilité initiale.
  * - getAllLayers : Retourne tous les calques et sous-calques de manière récursive à partir d’un container donné.
  * - restoreVisibilityRecursive : Restaure l’état de visibilité original de chaque calque à l’aide d’une map temporaire.
  */
-
 
 // ========================================
 // == CONFIGURATION ET PERSONNALISATION ==
@@ -67,7 +66,6 @@ function main() {
     alert(deletedCount + " calques vides supprimés.");
   }
 }
-
 
 try {
   main();

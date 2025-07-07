@@ -7,8 +7,8 @@
  * Catégorie     : Surfaces
  * Compatible    : Illustrator CS5+ (vérifié avec la propriété `.area`)
  * Description   : Calcule automatiquement la surface (en cm²) de tous les objets vectoriels sélectionnés.
- *                 Les surfaces sont affichées en texte dans un nouveau calque nommé dynamiquement.
- *                 Le script ignore les guides et les masques, et propose un contrôle d’erreur de surface estimée.
+ *
+ *                 Les surfaces sont affichées en texte dans un nouveau calque nommé dynamiquement "Surface X".
  * ---
  * Fonctions :
  * - main : Vérifie les sélections, calcule les surfaces et génère les annotations.
