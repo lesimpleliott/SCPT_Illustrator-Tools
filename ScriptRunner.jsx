@@ -35,9 +35,9 @@ var DEFAULT_DESCRIPTION =
   "    • 2e clic (sur le même bouton) : exécute le script\n\n" +
   "📁 Emplacement des scripts : utilisez le bouton en bas pour changer le dossier où vos fichiers .jsx sont stockés.";
 
-// ===============================
-// == CONFIGURATION EMPLACEMENT ==
-// ===============================
+// ========================================
+// ====== DEV VARIABLES GLOBALES ==========
+// ========================================
 var configData = loadScriptRoot();
 var SCRIPT_ROOT = configData.folder;
 

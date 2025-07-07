@@ -113,7 +113,7 @@ function main() {
 
     var options = {
       visible: ui.chkVisible.value,
-      locked: ui.chkLocked.value,
+      // locked: ui.chkLocked.value,
       printable: ui.chkPrintable.value,
       template: ui.chkTemplate.value,
       preview: ui.chkPreview.value,
@@ -225,7 +225,7 @@ function applyLayerSettings(layer, rgb, opacity, options) {
     layer.template = options.template;
     layer.visible = options.visible;
     layer.preview = options.preview;
-    layer.locked = options.locked;
+    // layer.locked = options.locked;
     layer.printable = options.printable;
     layer.dimPlacedImages = options.dimImages;
     if (options.dimImages) layer.opacity = opacity;

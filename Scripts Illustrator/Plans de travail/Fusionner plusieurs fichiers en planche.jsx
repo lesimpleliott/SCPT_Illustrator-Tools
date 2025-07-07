@@ -35,8 +35,8 @@ var SHOW_ALERT_AT_END = true; // true = afficher une alerte après exécution, f
 
 var exportLayerName = "IMPORTED_IMAGES"; // Nom du calque où seront placées les images importées
 var addTimestamp = true; // Ajouter un horodatage au nom du fichier exporté
-var artboardSize = 100; // Taille des plans de travail en pixels
-var spacing = 10; // Espace entre les plans de travail en pixels
+var artboardSize = 100 * 2.83464567; // Taille des plans de travail en pixels
+var spacing = 20 * 2.83464567; // Espace entre les plans de travail en pixels
 var maxColumns = 20; // Nombre maximum de colonnes par ligne
 
 // HARD CUSTOMIZABLE IF NEEDED
